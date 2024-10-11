@@ -1,0 +1,13 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: W@2915djkq#
+    url: jdbc:mysql://localhost:3306/eCommers
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+  application:
+    name: ecommers
